@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ql+9Z8WjCaTKvAjag2mC75Sn5SDAMuCIJRBQzrp21Y/Lnzd/HGgy0ZSDWs4xvtIlft5InbBwHCUGdiu2y6IaPQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\VDBRU\\source\\repos\\Wba.Oefening.Students\\Wba.Oefening.Students.Domain\\Wba.Oefening.Students.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VDBRU\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "C:\\Users\\VDBRU\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "C:\\Users\\VDBRU\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.1.0\\microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "C:\\Users\\VDBRU\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.1.0\\microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "C:\\Users\\VDBRU\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "C:\\Users\\VDBRU\\.nuget\\packages\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "C:\\Users\\VDBRU\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

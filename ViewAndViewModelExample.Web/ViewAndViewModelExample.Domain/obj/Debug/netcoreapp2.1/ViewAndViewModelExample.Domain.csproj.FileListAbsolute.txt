@@ -1,0 +1,9 @@
+C:\Users\VDBRU\source\repos\ViewAndViewModelExample.Web\ViewAndViewModelExample.Domain\bin\Debug\netcoreapp2.1\ViewAndViewModelExample.Domain.deps.json
+C:\Users\VDBRU\source\repos\ViewAndViewModelExample.Web\ViewAndViewModelExample.Domain\bin\Debug\netcoreapp2.1\ViewAndViewModelExample.Domain.dll
+C:\Users\VDBRU\source\repos\ViewAndViewModelExample.Web\ViewAndViewModelExample.Domain\bin\Debug\netcoreapp2.1\ViewAndViewModelExample.Domain.pdb
+C:\Users\VDBRU\source\repos\ViewAndViewModelExample.Web\ViewAndViewModelExample.Domain\obj\Debug\netcoreapp2.1\ViewAndViewModelExample.Domain.csprojAssemblyReference.cache
+C:\Users\VDBRU\source\repos\ViewAndViewModelExample.Web\ViewAndViewModelExample.Domain\obj\Debug\netcoreapp2.1\ViewAndViewModelExample.Domain.AssemblyInfoInputs.cache
+C:\Users\VDBRU\source\repos\ViewAndViewModelExample.Web\ViewAndViewModelExample.Domain\obj\Debug\netcoreapp2.1\ViewAndViewModelExample.Domain.AssemblyInfo.cs
+C:\Users\VDBRU\source\repos\ViewAndViewModelExample.Web\ViewAndViewModelExample.Domain\obj\Debug\netcoreapp2.1\ViewAndViewModelExample.Domain.csproj.CoreCompileInputs.cache
+C:\Users\VDBRU\source\repos\ViewAndViewModelExample.Web\ViewAndViewModelExample.Domain\obj\Debug\netcoreapp2.1\ViewAndViewModelExample.Domain.dll
+C:\Users\VDBRU\source\repos\ViewAndViewModelExample.Web\ViewAndViewModelExample.Domain\obj\Debug\netcoreapp2.1\ViewAndViewModelExample.Domain.pdb
