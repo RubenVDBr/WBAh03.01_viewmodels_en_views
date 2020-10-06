@@ -11,6 +11,9 @@ namespace Wba.Oefening.Students.Web.Controllers
     {
         public IActionResult Index()
         {
+            ViewData["pageTitle"] = "Studentpage";
+            ViewBag.Message = "Welcome to the student index page";
+
             return View();
         }
     }
