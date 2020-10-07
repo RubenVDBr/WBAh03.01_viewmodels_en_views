@@ -40,5 +40,23 @@ namespace Wba.Oefening.Students.Web.Controllers
 
             return View(studentDetailsVm);
         }
+
+        [Route("students/all")]
+        public IActionResult AllStudents()
+        {
+            //studentRepository ophalen
+            var studentRepository = new StudentRepository().GetStudents();
+
+            //Viewmodel aanmaken
+            var studentAllStudentsVm = new StudentAllStudentsVm();
+
+            //Viewmodel vullen
+            foreach (var Student in studentRepository)
+            {
+                ViewBag.Message += "1";
+            }
+
+            return View(studentAllStudentsVm);
+        }
     }
 }
