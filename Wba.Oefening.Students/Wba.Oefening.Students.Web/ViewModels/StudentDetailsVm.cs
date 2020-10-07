@@ -8,7 +8,7 @@ namespace Wba.Oefening.Students.Web.ViewModels
 {
     public class StudentDetailsVm
     {
-        public int StudentId { get; set; }
+        public int? StudentId { get; set; }
         public string StudentName { get; set; }
         public Course Course { get; set; }
     }

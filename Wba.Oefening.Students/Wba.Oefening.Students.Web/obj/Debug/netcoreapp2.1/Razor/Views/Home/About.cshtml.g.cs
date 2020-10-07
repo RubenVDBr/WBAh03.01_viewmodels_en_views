@@ -23,8 +23,13 @@ using Wba.Oefening.Students.Web.Models;
 
 #line default
 #line hidden
+#line 3 "C:\Users\VDBRU\source\repos\Wba.Oefening.Students\Wba.Oefening.Students.Web\Views\_ViewImports.cshtml"
+using Wba.Oefening.Students.Web.ViewModels;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f5989146c20e297d05361cc87bf290b8b98e9284", @"/Views/Home/About.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e5de1657b1963e1ac8c54a0f69cb563e00c60982", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6069315692cd9888193d75ae4342e22f4bc33196", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_About : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

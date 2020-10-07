@@ -8,8 +8,10 @@ using Wba.Oefening.Students.Web.Models;
 
 namespace Wba.Oefening.Students.Web.Controllers
 {
+    
     public class HomeController : Controller
     {
+        [Route("/")]
         public IActionResult Index()
         {
             return View();

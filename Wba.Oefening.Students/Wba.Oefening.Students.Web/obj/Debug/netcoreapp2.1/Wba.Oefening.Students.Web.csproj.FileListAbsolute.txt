@@ -37,3 +37,4 @@ C:\Users\VDBRU\source\repos\Wba.Oefening.Students\Wba.Oefening.Students.Web\bin\
 C:\Users\VDBRU\source\repos\Wba.Oefening.Students\Wba.Oefening.Students.Web\bin\Debug\netcoreapp2.1\Wba.Oefening.Students.Domain.pdb
 C:\Users\VDBRU\source\repos\Wba.Oefening.Students\Wba.Oefening.Students.Web\obj\Debug\netcoreapp2.1\Wba.Oefening.Students.Web.csproj.CoreCompileInputs.cache
 C:\Users\VDBRU\source\repos\Wba.Oefening.Students\Wba.Oefening.Students.Web\obj\Debug\netcoreapp2.1\Razor\Views\Student\Index.cshtml.g.cs
+C:\Users\VDBRU\source\repos\Wba.Oefening.Students\Wba.Oefening.Students.Web\obj\Debug\netcoreapp2.1\Razor\Views\Student\Details.cshtml.g.cs

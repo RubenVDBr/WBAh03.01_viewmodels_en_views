@@ -1,7 +1,13 @@
-﻿
+﻿@model StudentDetailsVm
+
 @{
     ViewData["Title"] = "Details";
 }
 
 <h2>Details</h2>
 
+<ul>
+    <li>@Model.StudentId</li>
+    <li>@Model.StudentName</li>
+    <li>@Model.Course</li>
+</ul>
