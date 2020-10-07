@@ -34,9 +34,9 @@ namespace Wba.Oefening.Students.Web.Controllers
 
             //Viewmodel vullen
             studentDetailsVm.StudentId = studentRepository.GetStudents().FirstOrDefault(s => s.Id == id)?.Id ?? 0;
-            studentDetailsVm.StudentName = studentRepository.GetStudents().FirstOrDefault(s => s.Id == id)?.FirstName ?? "no firstname" +
-                studentRepository.GetStudents().FirstOrDefault(s => s.Id == id)?.LastName ?? "noLastName";
-            studentDetailsVm.Course = studentRepository.GetStudents().FirstOrDefault(s => s.Id == id).Course;
+            studentDetailsVm.StudentName = $"{studentRepository.GetStudents().FirstOrDefault(s => s.Id == id)?.FirstName ?? "no firstname"} " +
+                                            $"{studentRepository.GetStudents().FirstOrDefault(s => s.Id == id)?.LastName ?? "noLastName"}";
+            studentDetailsVm.CourseName = studentRepository.GetStudents().FirstOrDefault(s => s.Id == id).Course.Name;
 
             return View(studentDetailsVm);
         }
