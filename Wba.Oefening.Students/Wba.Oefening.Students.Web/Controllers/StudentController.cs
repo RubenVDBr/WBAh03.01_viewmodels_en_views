@@ -36,7 +36,7 @@ namespace Wba.Oefening.Students.Web.Controllers
             studentDetailsVm.StudentId = studentRepository.GetStudents().FirstOrDefault(s => s.Id == id)?.Id ?? 0;
             studentDetailsVm.StudentName = $"{studentRepository.GetStudents().FirstOrDefault(s => s.Id == id)?.FirstName ?? "no firstname"} " +
                                             $"{studentRepository.GetStudents().FirstOrDefault(s => s.Id == id)?.LastName ?? "noLastName"}";
-            studentDetailsVm.CourseName = studentRepository.GetStudents().FirstOrDefault(s => s.Id == id).Course.Name;
+            studentDetailsVm.CourseName = studentRepository.GetStudents().FirstOrDefault(s => s.Id == id)?.Course?.Name ?? "noCourse";
 
             return View(studentDetailsVm);
         }
@@ -45,15 +45,18 @@ namespace Wba.Oefening.Students.Web.Controllers
         public IActionResult AllStudents()
         {
             //studentRepository ophalen
-            var studentRepository = new StudentRepository().GetStudents();
+            var studenten = new StudentRepository().GetStudents();
 
             //Viewmodel aanmaken
             var studentAllStudentsVm = new StudentAllStudentsVm();
 
+            //lijst initialiseren
+            studentAllStudentsVm.Studenten = new List<string>();
+
             //Viewmodel vullen
-            foreach (var Student in studentRepository)
+            foreach (Student student in studenten)
             {
-                ViewBag.Message += "1";
+                studentAllStudentsVm.Studenten.Add($"{student?.FirstName ?? "noFirstName"} {student?.LastName ?? "noLastName"}");
             }
 
             return View(studentAllStudentsVm);

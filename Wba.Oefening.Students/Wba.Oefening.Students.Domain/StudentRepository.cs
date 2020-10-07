@@ -17,21 +17,21 @@ namespace Wba.Oefening.Students.Domain
                 {
                     Id = 1,
                     FirstName = "Arno",
-                    LastName = "muttn",
+                    LastName = "Barno",
                     Course = courseRepository.GetCourses().First(c => c.Id == 1)
                 },
                 new Student
                 {
                     Id = 2,
                     FirstName = "Fay",
-                    LastName = "noidea",
+                    LastName = "Sway",
                     Course = courseRepository.GetCourses().First(c => c.Id == 2)
                 },
                 new Student
                 {
                     Id = 3,
                     FirstName = "Silke",
-                    LastName = "vanlokeren",
+                    LastName = "Vanhilke",
                     Course = courseRepository.GetCourses().First(c => c.Id == 3)
                 }
             };
